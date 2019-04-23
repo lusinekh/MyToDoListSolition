@@ -1,0 +1,19 @@
+USE [ToDoList]
+GO
+
+/****** Object:  Table [dbo].[ToDoList]    Script Date: 4/22/2019 10:54:48 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ToDoList](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Discript] [nvarchar](50) NULL,
+	[IsDone] [bit] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+

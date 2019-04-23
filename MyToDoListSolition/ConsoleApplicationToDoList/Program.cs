@@ -12,7 +12,8 @@ namespace ConsoleApplicationToDoList
     {
         static void Main(string[] args)
         {
-            string connetionString = @"Data Source=DESKTOP-I87ABNR\SQLEXPRESS;Initial Catalog=ToDoList;Integrated Security=True;Pooling=False";
+            string connetionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ToDoList;Integrated Security=True;Pooling=False";
+           
             ToDoList itm = new ToDoList();
             using (SqlConnection t = itm.Connetion(connetionString))
             {

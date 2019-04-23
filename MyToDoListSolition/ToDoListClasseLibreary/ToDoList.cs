@@ -68,6 +68,24 @@ namespace ToDoListClasseLibreary
             }
         }
 
+        public void UpdatToDoListItm(SqlConnection CnnAdd, bool Isdone,int   id)
+        {
+            int IsDoneValue = Isdone == true ? 1 : 0;
+
+            string query = $"UPDATE ToDoList SET IsDone = {IsDoneValue} WHERE Id = {id}; ";        
+            SqlCommand cmd = new SqlCommand(query, CnnAdd);
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
         public List<ToDoItem> GetAllItms(SqlConnection CnnShow)
         {
             items = new List<ToDoItem>();
