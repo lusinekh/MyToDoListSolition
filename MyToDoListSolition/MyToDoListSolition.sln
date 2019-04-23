@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationToDoList", "ConsoleApplicationToDoList\ConsoleApplicationToDoList.csproj", "{0E2F1036-00AC-4C4D-A914-E3C082D88443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListClasseLibreary", "ToDoListClasseLibreary\ToDoListClasseLibreary.csproj", "{F80A2592-1F7D-4853-BF73-092B9A4821AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlFile", "SqlFile", "{74ECFC57-EE17-4F29-ACBA-2F726E5F2A77}"
+	ProjectSection(SolutionItems) = preProject
+		TableSql.txt = TableSql.txt
+		ToDoListSql.txt = ToDoListSql.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E2F1036-00AC-4C4D-A914-E3C082D88443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2F1036-00AC-4C4D-A914-E3C082D88443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2F1036-00AC-4C4D-A914-E3C082D88443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2F1036-00AC-4C4D-A914-E3C082D88443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80A2592-1F7D-4853-BF73-092B9A4821AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80A2592-1F7D-4853-BF73-092B9A4821AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80A2592-1F7D-4853-BF73-092B9A4821AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80A2592-1F7D-4853-BF73-092B9A4821AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
